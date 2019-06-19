@@ -16,6 +16,9 @@
         </a>
       {{ end }}
     </div>
+    
+    <div>This is a Test. Testing Testing <i>123</i> <strong>Just making a commit to say that I did it.</strong> </div>
+    
     {{ if current_school.filtering_enabled? }}
       <span>
         {{ course.course_category_names }}
